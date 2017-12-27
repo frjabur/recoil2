@@ -1,0 +1,50 @@
+<Normal>
+    <File DstIsSrc="0" IsGenSymbol="0">
+        <PFName>mIRC</PFName>
+        <SrcFile>C:\Users\fejab\Desktop\mIRC\Release\mIRC.exe</SrcFile>
+        <DstFile>C:\Users\fejab\Desktop\mIRC\Release\mIRC.zp.exe</DstFile>
+        <GenSymbolFile>C:\Users\fejab\Desktop\mIRC\Release\mIRC.zp.zdb</GenSymbolFile>
+    </File>
+    <Import EnImport="1" EnImportCall="1" />
+    <Resource EncryptWay="0" ComRsrc="1" ComIcon="1" />
+    <Others AppendData="1" bSecString="0" sSecString="" NPActive="1" MLActive="1" XQESize="172" XQEBody="YItUJCSNktRUghhoU0UWbVmH2LnpK290i/qB93oHc3++OTZdC42/URJSN4vFh96B7x4L0wmHyovDgfezYa48gfeWfRk2gcexetR3ge9QB+9zgcfHdR5taKki6wNbgfeRHVsNge9Cc8VTh9GHyPffi+pWWY2/QHcXHIl8JBxhwgQA" XQDSize="172" XQDBody="YIt0JCSB7kB3FxyL61NZ996Hyof/jbZCc8VTgfaRHVsNu7E41CKB7sd1Hm2BxlAH73OB7rF61HeB9pZ9GTaB9rNhrjyLyYffgcYeC9MJh82L34HuURJSN7kqT1gkgfZ6B3N/Vlq4hnPlDYfGuUxeNEqB6tRUghiJVCQcYcIEAA==" IsExceptHandled="1" IsGBString="0" GBString="{87C8635D-3A3A-4A4F-54AE-644AE9DD1EDE}" />
+    <CRC CRCFile="1" CRCData="0" CRCSection="1" />
+    <OL OLLevel="0" />
+    <Logo ShowLogo="0" ShowType="0" waittime="100" LogoPath="" />
+    <License bWatermark="0" sWatermark="" OnlyGuid1="283451766" OnlyGuid2="31050" OnlyGuid3="18887" OnlyGuid4="1930146209" OnlyGuid5="-206155530" PublicGuid1="-1010902108" PublicGuid2="12632" PublicGuid3="39848" PublicGuid4="1500060163" PublicGuid5="-460358480" />
+    <AntiHook Active="0" Default="0" />
+    <ModuleBlack Active="0" />
+    <CodeProc />
+</Normal>
+<AlertMsgs>
+    <OneAlert id="0" dsType="0" Active="1" atDesc="Debugger Detected" atClass="Main Module" atType="1" atValue="0" AlertType="0" icType="16" Title="Error" Text="A debugger has been found running in your system, please unload it and restart your application!" />
+    <OneAlert id="1" dsType="1" Active="0" atDesc="Start Up" atClass="Main Module" atType="1" atValue="0" AlertType="0" icType="64" Title="Information" Text="This message shows only when your application starts up!" />
+    <OneAlert id="2" dsType="1" Active="1" atDesc="File Corrupted" atClass="Main Module" atType="1" atValue="0" AlertType="0" icType="16" Title="Error" Text="Current file has been corrupted by virus or illegal modification, please reinstall it!" />
+    <OneAlert id="3" dsType="0" Active="0" atDesc="Wrong Password" atClass="Licensing Module" atType="1" atValue="0" AlertType="0" icType="16" Title="Error" Text="The password you input is wrong, please try again!" />
+    <OneAlert id="4" dsType="0" Active="1" atDesc="Successfully Registered" atClass="Licensing Module" atType="1" atValue="0" AlertType="0" icType="64" Title="Successful" Text="Successfully Registered, pode ir xitar agora vagabundo!" />
+    <OneAlert id="5" dsType="0" Active="1" atDesc="Invalid Key" atClass="Licensing Module" atType="1" atValue="0" AlertType="0" icType="16" Title="Error" Text="Invalid key or key already used. You are unable to complete the registration!" />
+    <OneAlert id="6" dsType="0" Active="1" atDesc="Trial Limitation" atClass="Licensing Module" atType="1" atValue="0" AlertType="0" icType="16" Title="Error" Text="You reached your trial limitation and you are unable to continue trying it!&#x0D;&#x0A;Compre para continuar a usar o hack!" />
+    <OneAlert id="7" dsType="0" Active="1" atDesc="Invalid Keyfile" atClass="Licensing Module" atType="1" atValue="0" AlertType="0" icType="16" Title="Error" Text="Invalid keyfile! The application can not continue to start!" />
+    <OneAlert id="8" dsType="0" Active="1" atDesc="Connection Failed" atClass="Licensing Module" atType="1" atValue="0" AlertType="0" icType="16" Title="Error" Text="Could not connect to server, please check up your network connection and try again!" />
+</AlertMsgs>
+<Plugins>
+    <PluginOne Active="1" DLLName="anti.dll">
+        <Settings AntiLPK="0" AntiAttach="0" AntiRegmon="0" AntiDumper="0" AntiSoftICE="0" AntiFileMon="0" AntiDebugger="0" />
+    </PluginOne>
+    <PluginOne Active="1" DLLName="overlay.dll">
+        <Settings EnumOverlay="0" />
+    </PluginOne>
+    <PluginOne Active="1" DLLName="">
+        <Settings />
+    </PluginOne>
+</Plugins>
+<CPSeting>
+    <Normal Active="1" GLevel="5" nSJmp="24" nSRef="0" nSFun="0" bAJmp="1" bARef="0" bAFun="0" />
+</CPSeting>
+<License KeyMode="0" TryTime="60" TryTick="0" IDLink="22" TryDays="0" AlertReg="29" needKey="0" Active="1" UseNetTime="1" NShowRegWnd="0" TryDateYear="0" TryDateMonth="0" TryDateDay="0" RunPassword="0" RunPwdValue="" bHomePage="0" sHomePage="" ProtectPassword="2AYClmqONAptG4ywkG7OUi5x" bKeyFile="0" sKeyFile="License.key" bOnlyKeyFile="0" />
+<NetLicense Address="" Port="0" UserName="" AuthHash="" ProductName="" ProductID="" UseLoginWin="0" Active="0" />
+<BlackList />
+<Scripts>
+    <Setting SFlag="0" SPath="Script.zsp" />
+    <Groups />
+</Scripts>
